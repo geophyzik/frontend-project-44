@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/Scampik/frontend-project-44/issues"
   },
-  "homepage": "https://github.com/Scampik/frontend-project-44#readme"
+  "type": "module",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "homepage": "https://github.com/Scampik/frontend-project-44#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
