@@ -3,6 +3,9 @@ install:
 
 bg:
 	node bin/brain-games.js
+
+be:
+	node bin/brain-even.js
 	
 publish:
 	npm publish --dry-run
