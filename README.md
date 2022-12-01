@@ -5,3 +5,5 @@
 //game brain-even video
 https://asciinema.org/a/whbyXiXbG4gAdhNnmLgDnCJJE
 
+//game brain-calc video
+https://asciinema.org/a/ZEJgKuYhgSpPJ20soygGWB8Oa
