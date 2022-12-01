@@ -10,3 +10,6 @@ https://asciinema.org/a/ZEJgKuYhgSpPJ20soygGWB8Oa
 
 //game brain-gcd
 https://asciinema.org/a/S998jGzLDhDjXZjwfDioVQO5i
+
+//game brain-progression
+https://asciinema.org/a/BvvJQ5IZUDbQAY45tUXCaMTLZ
