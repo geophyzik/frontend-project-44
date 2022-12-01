@@ -7,3 +7,6 @@ https://asciinema.org/a/whbyXiXbG4gAdhNnmLgDnCJJE
 
 //game brain-calc video
 https://asciinema.org/a/ZEJgKuYhgSpPJ20soygGWB8Oa
+
+//game brain-gcd
+https://asciinema.org/a/S998jGzLDhDjXZjwfDioVQO5i

@@ -9,6 +9,9 @@ be:
 
 bc:
 	node bin/brain-calc.js
+
+gcd:
+	node bin/brain-gcd.js
 	
 publish:
 	npm publish --dry-run
