@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import getRandomInt from '../src/random.js';
+import getRandomInt from '../src/RandomNumber.js';
 
 // Имя
 console.log('Welcome to the Brain Games!');
