@@ -20,7 +20,7 @@ const startGame = (gameRule, getGameData) => {
     }
     console.log('Correct!');
   }
-  return console.log(`Congratulation, ${userName}!`);
+  return console.log(`Congratulations, ${userName}!`);
 };
 
 export default startGame;
