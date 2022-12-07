@@ -2,7 +2,7 @@ import startGame from '../../index.js';
 import getRandomInt from '../RandomNumber.js';
 
 // game
-const gameRule = 'What is the result of the expression?';
+const gameRule = 'What number is missing in the progression?';
 
 const calculate = (firstNumber, step, lostNumber, arrayNumbers) => {
   arrayNumbers.push(firstNumber);
