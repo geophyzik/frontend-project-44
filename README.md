@@ -15,32 +15,27 @@ How To Install?
 Games:
 ------------------------------------------------------
     Brain Even
-    discraption: find the even number!
+    discription: find the even number!
     how to start: make even
-    demo:
 <a href="https://asciinema.org/a/5fNlG2UFWCf4TAv77Y32jp6yn" target="_blank"><img src="https://asciinema.org/a/5fNlG2UFWCf4TAv77Y32jp6yn.svg" /></a>
 ------------------------------------------------------
     Brain Calculator
-    discraption: find the answer!
+    discription: find the answer!
     how to start: make calc
-    demo: 
 <a href="https://asciinema.org/a/svZQ4GIE2a8CjGqKLVMT8Qt56" target="_blank"><img src="https://asciinema.org/a/svZQ4GIE2a8CjGqKLVMT8Qt56.svg" /></a>
 ------------------------------------------------------
     Brain GCD
-    discraption: find the GCD(greatest common divisor)!
+    discription: find the GCD(greatest common divisor)!
     how to start: make gcd
-    demo:
 <a href="https://asciinema.org/a/omkOHjyBUZEMrUcsU9zVvZQFz" target="_blank"><img src="https://asciinema.org/a/omkOHjyBUZEMrUcsU9zVvZQFz.svg" /></a>
 ------------------------------------------------------
     Brain Progression
-    discraption: find the number in progression!
+    discription: find the number in progression!
     how to start: make line
-    demo:
 <a href="https://asciinema.org/a/2z4dkVf2KY3O0HA3U0AeJbJVV" target="_blank"><img src="https://asciinema.org/a/2z4dkVf2KY3O0HA3U0AeJbJVV.svg" /></a>
 ------------------------------------------------------
     Brain Prime
-    discraption: find the prime number!
+    discription: find the prime number!
     how to start: make prime
-    demo:
 <a href="https://asciinema.org/a/SDpkHxcTlqfvDt7MV01BCV79S" target="_blank"><img src="https://asciinema.org/a/SDpkHxcTlqfvDt7MV01BCV79S.svg" /></a>
 ------------------------------------------------------
