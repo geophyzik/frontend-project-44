@@ -4,16 +4,16 @@ install:
 bg:
 	node bin/brain-games.js
 
-be:
+even:
 	node bin/brain-even.js
 
-bc:
+calc:
 	node bin/brain-calc.js
 
 gcd:
 	node bin/brain-gcd.js
 
-pr:
+line:
 	node bin/brain-progression.js
 	
 prime:

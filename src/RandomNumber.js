@@ -4,4 +4,3 @@ function getRandomInt(max = 30) {
 }
 
 export default getRandomInt;
-// console.log(getRandomInt()); proverka
