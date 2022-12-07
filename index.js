@@ -11,7 +11,7 @@ const startGame = (gameRule, getGameData) => {
   const gameRounds = 3;
   for (let i = 0; i < gameRounds; i += 1) {
     const result = getGameData();
-    console.log('Question: ', result[0]);
+    console.log('Question:', result[0]);
     const userAnswer = readlineSync.question('You answer: ');
     const correctAnswer = result[1];
 
