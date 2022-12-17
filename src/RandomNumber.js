@@ -1,7 +1,7 @@
 // random numbers for game
-function getRandomInt(min = 0, max = 30) {
-  min = Math.ceil(min);
-  max = Math.floor(max);
+function getRandomInt(minNum = 0, maxNum = 30) {
+  const min = Math.ceil(minNum);
+  const max = Math.floor(maxNum);
   return Math.floor(Math.random() * (max - min) + min);
 }
 
