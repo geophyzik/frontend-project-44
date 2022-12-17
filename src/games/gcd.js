@@ -15,8 +15,8 @@ const determineGcd = (number1, number2) => {
 };
 
 const getGameData = () => {
-  const number1 = getRandomInt();
-  const number2 = getRandomInt();
+  const number1 = getRandomInt(3, 7);
+  const number2 = getRandomInt(3, 7);
 
   const question = `${number1} ${number2}`;
   const correctAnswer = determineGcd(number1, number2);

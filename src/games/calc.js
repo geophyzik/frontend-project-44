@@ -29,8 +29,8 @@ const calculate = (number1, number2, sign) => {
 };
 
 const getGameData = () => {
-  const number1 = getRandomInt(10);
-  const number2 = getRandomInt(10);
+  const number1 = getRandomInt(0, 10);
+  const number2 = getRandomInt(0, 10);
   const sign = getRandomOperator();
 
   const question = `${number1} ${sign} ${number2}`;

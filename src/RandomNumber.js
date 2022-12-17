@@ -1,6 +1,8 @@
 // random numbers for game
-function getRandomInt(max = 30) {
-  return Math.floor(Math.random() * max);
+function getRandomInt(min, max = 30) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min) + min);
 }
 
 export default getRandomInt;
