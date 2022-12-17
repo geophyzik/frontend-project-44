@@ -13,7 +13,6 @@ const startGame = (gameRule, getGameData) => {
     const [question, correctAnswer] = getGameData();
     console.log('Question:', question);
     const userAnswer = readlineSync.question('You answer: ');
-    
 
     if (userAnswer !== correctAnswer) {
       return console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!`); // uncorrect answer
