@@ -15,9 +15,9 @@ const getLineAndAnswer = (firstNumber, numberStep, indexLostNumber, lineOfNumber
 };
 
 const getGameData = () => {
-  const firstNumber = getRandomInt(10);
-  const numberStep = getRandomInt(5);
-  const indexLostNumber = getRandomInt(10);
+  const firstNumber = getRandomInt(0, 10);
+  const numberStep = getRandomInt(1, 5);
+  const indexLostNumber = getRandomInt(0, 10);
   const lineOfNumbers = [];
   const correctAnswer = getLineAndAnswer(firstNumber, numberStep, indexLostNumber, lineOfNumbers);
   lineOfNumbers[indexLostNumber] = '..';
