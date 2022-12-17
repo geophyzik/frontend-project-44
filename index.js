@@ -10,10 +10,10 @@ const startGame = (gameRule, getGameData) => {
   // game
   const gameRounds = 3;
   for (let i = 0; i < gameRounds; i += 1) {
-    const result = getGameData();
-    console.log('Question:', result[0]);
+    const [question, correctAnswer] = getGameData();
+    console.log('Question:', question);
     const userAnswer = readlineSync.question('You answer: ');
-    const correctAnswer = result[1];
+    
 
     if (userAnswer !== correctAnswer) {
       return console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!`); // uncorrect answer

@@ -3,17 +3,22 @@ import getRandomInt from '../RandomNumber.js';
 
 const gameRule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const calculate = (number1) => {
-  let answer = 'yes';
-
-  for (let i = 2; i < number1; i += 1) {
-    if (number1 % i === 0) {
-      answer = 'no';
+const isPrime = (number) => {
+  for (let i = 2; i < number; i += 1) {
+    if (number % i === 0) {
+      return true;
     }
   }
-  if (number1 === 1 || number1 === 0) {
+  return false;
+};
+
+const checkPrimeNumber = (number) => {
+  let answer = isPrime(number) ? 'no' : 'yes';
+
+  if (number === 1 || number === 0) {
     answer = 'no';
   }
+
   return answer;
 };
 
@@ -21,7 +26,7 @@ const getGameData = () => {
   const number1 = getRandomInt();
 
   const question = number1;
-  const correctAnswer = calculate(number1);
+  const correctAnswer = checkPrimeNumber(number1);
 
   return [question, correctAnswer.toString()];
 };
