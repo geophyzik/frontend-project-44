@@ -1,13 +1,12 @@
 import getRandomInt from '../RandomNumber.js';
 import startGame from '../../index.js';
 
-const isEven = (number) => number % 2 === 0;
-// igra
+const isEven = (question) => question % 2 === 0;
+
 const gameRule = 'Answer "yes" if the number is even, otherwise answer "no".';
 export const getGameData = () => {
-  const number = getRandomInt();
-  const question = number;
-  const correctAnswer = isEven(number) ? 'yes' : 'no'; // correct answer
+  const question = getRandomInt();
+  const correctAnswer = isEven(question) ? 'yes' : 'no';
 
   return [question, correctAnswer];
 };

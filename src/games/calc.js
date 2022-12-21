@@ -1,13 +1,12 @@
 import startGame from '../../index.js';
 import getRandomInt from '../RandomNumber.js';
 
-// game
 const gameRule = 'What is the result of the expression?';
 
 const getRandomOperator = () => {
-  const choiceOperator = ['+', '-', '*'];
-  const index = Math.floor(Math.random() * choiceOperator.length);
-  return choiceOperator[index];
+  const choiceOperators = ['+', '-', '*'];
+  const index = Math.floor(Math.random() * choiceOperators.length);
+  return choiceOperators[index];
 };
 
 const calculate = (number1, number2, sign) => {

@@ -1,7 +1,6 @@
 import startGame from '../../index.js';
 import getRandomInt from '../RandomNumber.js';
 
-// game
 const gameRule = 'What number is missing in the progression?';
 
 const getLineAndAnswer = (firstNumber, numberStep, indexLostNumber, lineOfNumbers) => {

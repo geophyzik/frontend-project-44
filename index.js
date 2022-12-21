@@ -8,8 +8,8 @@ const startGame = (gameRule, getGameData) => {
   console.log(gameRule);
 
   // game
-  const gameRounds = 3;
-  for (let i = 0; i < gameRounds; i += 1) {
+  const ROUNDS_COUNT = 3;
+  for (let i = 0; i < ROUNDS_COUNT; i += 1) {
     const [question, correctAnswer] = getGameData();
     console.log('Question:', question);
     const userAnswer = readlineSync.question('You answer: ');
